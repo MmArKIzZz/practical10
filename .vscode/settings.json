@@ -1,0 +1,8 @@
+{
+  "python.analysis.extraPaths": ["backend", "streamlit_app"],
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true
+  }
+}

@@ -1,0 +1,14 @@
+[project]
+name = "image-classifier-api"
+version = "4.0.0"
+description = "Universal image classifier API (CLIP-ViT-B/32 zero-shot)"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.115.6",
+    "uvicorn[standard]==0.34.0",
+    "python-multipart==0.0.20",
+    "torch==2.5.1",
+    "transformers==4.46.3",
+    "Pillow==11.1.0",
+    "numpy==1.26.4",
+]
